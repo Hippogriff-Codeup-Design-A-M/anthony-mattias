@@ -5,41 +5,74 @@
 	<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
 	<title>Codeup Design Ex</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!--This section is for the navigation menu-->
 <div class='page-wrapper'>
-	<nav class="navbar navbar-expand-lg bg-light">
-	<div class="container-fluid">
-		<nav class="navbar bg-light">
-			<div class="container">
-				<a class="navbar-brand " href="#">
-					<img src="../images/logo.png" alt="Bootstrap" width="30" height="30 "> </a>
-				<div class="d-none d-lg-block font-family=anton">codeup desgin</div>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+			<nav class="navbar">
+				<div class="container">
+					<a class="navbar-brand " href="#">
+						<img src="../images/logo.png" alt="Bootstrap" width="30" height="30"> </a>
+					<div class="d-none d-lg-block font-family=abel regular">codeup desgin</div>
+				</div>
+			</nav>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
 			</div>
-		</nav>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Work</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Blog</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
+			<!--This section is for the navigation menu-->
 		</div>
-		<!--This section is for the navigation menu-->
-	</div>
 	</nav>
+
+	<div class="container text-center">
+		<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+		<div class="row">
+			<div class="font-family=anton regular fw-bold fs-1 ">VISUAL DESIGN & WEB DEVELOPMENT</div>
+<!--			<div class="col-6 col-md-4">.col-6 .col-md-4</div>-->
+		</div>
+
+		<!-- Columns are always 50% wide, on mobile and desktop -->
+		<div class="row">
+			<div class="font-family=anton regular fw-bold fs-3">FROM PARK CITY, UTAH</div>
+<!--			<div class="col-6">.col-6</div>-->
+		</div>
+
+		<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+		<div class="row d-flex justify-content-center pt-5 pb-5">
+			<div class="circle1 col-2 rounded-circle">
+			Design</div>
+			<div class="circle5 col-1 rounded-circle"></div>
+			<div class="circle2 col-2 rounded-circle">Develop</div>
+			<div class="circle5 col-1 rounded-circle"></div>
+			<div class="circle3 col-2 rounded-circle">Support</div>
+			<div class="circle5 col-1 rounded-circle"></div>
+			<div class="circle4 col-2 rounded-circle">Host</div>
+			<div class="circle6 col-1 rounded-circle"></div>
+		</div>
+
+		<hr>
+
+
+
+	</div>
 
 
 
