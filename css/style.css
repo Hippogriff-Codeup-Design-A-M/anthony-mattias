@@ -52,31 +52,105 @@ body{
 .card-footer ul{
     display: flex;
     list-style: none;
-    align-items: flex-start;
-    margin: 0px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .card-footer li {
     margin: auto;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
 }
 
 .FP {
+    text-align: left;
 
 }
 
-.smCircle {
-    width: 15px;
-    height: 15px;
-    background-color: #00aba9;
-    border: 10px solid blue;
-    color: white;
+ul .smCircle {
+    width: 18px;
+    height: 18px;
+    background-color: #e6563B;
+    /*border: 10px solid #F0F0F0;*/
+    color: black;
     font-weight: bold;
-    display: flex;
+    font-size: smaller;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    /*border: 2px solid red;*/
+    /*margin-right: 0;*/
 }
 
-/*.card-footer smCircle {*/
-/*    justify-content: ;*/
-/*}*/
+ul .smCircle2 {
+    width: 18px;
+    height: 18px;
+    background-color: #EB9d3a;
+    /*border: 10px solid #F0F0F0;*/
+    color: black;
+    font-weight: bold;
+    font-size: smaller;
+    align-items: center;
+    justify-content: center;
+    /*justify-content: flex-start;*/
+}
+
+ul .smCircle3 {
+    width: 18px;
+    height: 18px;
+    background-color: #00aba9;
+    /*border: 10px solid #F0F0F0;*/
+    color: black;
+    font-weight: bold;
+    font-size: smaller;
+    align-items: center;
+    justify-content: center;
+    /*    justify-content: flex-start;*/
+    /*}*/
+}
+
+ul .smCircle4 {
+    width: 18px;
+    height: 18px;
+    background-color: #7cb06c;
+    /*border: 10px solid #F0F0F0;*/
+    color: black;
+    font-weight: bold;
+    font-size: smaller;
+    align-items: center;
+    justify-content: center;
+    /*justify-content: flex-start;*/
+}
+
+
+.card img{
+    border: 10px solid #E6E6E6;
+}
+
+.selected{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*border: 2px solid red;*/
+    /*position: relative;*/
+    /*left: 150px;*/
+}
+
+.last{
+    margin-left: 5em;
+    /*border: 2px solid red;*/
+
+}
+
+.last h6{
+    margin-bottom: 2em;
+}
+
+.paragraph{
+    text-align: left;
+    /*justify-content: left;*/
+    /*align-items: flex-end;*/
+    /*border: 2px solid red;*/
+
+}
+
+.paragraph h5 {
+    margin-bottom: 5px;
+}
