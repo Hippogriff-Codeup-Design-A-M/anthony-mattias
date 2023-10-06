@@ -2,6 +2,19 @@ body{
     background: #E6E6E6;
 }
 
+nav{
+    font-family: 'Abel', sans-serif;
+}
+
+.visual{
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+}
+
+.from{
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+}
 
 .circle1 {
     width: 150px;
@@ -9,10 +22,10 @@ body{
     background-color: #e6563B;
     border: 10px solid #F0F0F0;
     color: white;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Anton', sans-serif;
 }
 .circle2 {
     width: 150px;
@@ -20,10 +33,10 @@ body{
     background-color: #EB9d3a;
     border: 10px solid #F0F0F0;
     color: white;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .circle3 {
@@ -32,10 +45,10 @@ body{
     background-color: #7cb06c;
     border: 10px solid #F0F0F0;
     color: white;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .circle4 {
@@ -44,10 +57,11 @@ body{
     background-color: #00aba9;
     border: 10px solid #F0F0F0;
     color: white;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Anton', sans-serif;
+
 }
 
 .card-footer ul{
@@ -60,11 +74,15 @@ body{
 .card-footer li {
     margin: auto;
     /*justify-content: flex-end;*/
+    font-family: 'Abel', sans-serif;
 }
 
 .FP {
     text-align: left;
+}
 
+h6{
+    font-family: 'Abel', sans-serif;
 }
 
 ul .smCircle {
@@ -73,12 +91,12 @@ ul .smCircle {
     background-color: #e6563B;
     /*border: 10px solid #F0F0F0;*/
     color: black;
-    font-weight: bold;
-    font-size: smaller;
-    align-items: center;
+    font-size: 11px;
+    display: flex;
     justify-content: center;
-    /*border: 2px solid red;*/
-    /*margin-right: 0;*/
+    padding-top: 1px;
+    /*justify-content: flex-start;*/
+    font-family: 'Anton', sans-serif;
 }
 
 ul .smCircle2 {
@@ -87,11 +105,12 @@ ul .smCircle2 {
     background-color: #EB9d3a;
     /*border: 10px solid #F0F0F0;*/
     color: black;
-    font-weight: bold;
-    font-size: smaller;
-    align-items: center;
+    font-size: 11px;
+    display: flex;
     justify-content: center;
+    padding-top: 1px;
     /*justify-content: flex-start;*/
+    font-family: 'Anton', sans-serif;
 }
 
 ul .smCircle3 {
@@ -100,12 +119,13 @@ ul .smCircle3 {
     background-color: #00aba9;
     /*border: 10px solid #F0F0F0;*/
     color: black;
-    font-weight: bold;
-    font-size: smaller;
-    align-items: center;
+    font-size: 11px;
+    display: flex;
     justify-content: center;
-    /*    justify-content: flex-start;*/
-    /*}*/
+    padding-top: 1px;
+    /*justify-content: flex-start;*/
+    font-family: 'Anton', sans-serif;
+
 }
 
 ul .smCircle4 {
@@ -114,45 +134,60 @@ ul .smCircle4 {
     background-color: #7cb06c;
     /*border: 10px solid #F0F0F0;*/
     color: black;
-    font-weight: bold;
-    font-size: smaller;
-    align-items: center;
+    font-size: 11px;
+    display: flex;
     justify-content: center;
+    padding-top: 1px;
     /*justify-content: flex-start;*/
+    font-family: 'Anton', sans-serif;
 }
 
+/*.last img{*/
+/*    border: 5px solid lightgrey;*/
+
+/*}*/
 
 .card img{
     border: 10px solid #E6E6E6;
 }
 
-.selected{
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*border: 2px solid red;*/
-    /*position: relative;*/
-    /*left: 150px;*/
-}
-
 .last{
     margin-left: 5em;
-    /*border: 2px solid red;*/
-
 }
 
 .last h6{
     margin-bottom: 2em;
 }
 
-.paragraph{
-    text-align: left;
-    /*justify-content: left;*/
-    /*align-items: flex-end;*/
-    /*border: 2px solid red;*/
+.phone{
+    font-size: x-large;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+}
 
+.head{
+    font-size: x-large;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
+}
+
+.google{
+    font-size: x-large;
+    text-align: start;
+    font-family: 'Anton', sans-serif;
 }
 
 .paragraph h5 {
     margin-bottom: 5px;
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+
+}
+
+.paragraph p {
+    width: 150%;
+    text-align: start;
+    font-family: 'Abel', sans-serif;
+
 }
 
